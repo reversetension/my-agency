@@ -1,0 +1,68 @@
+body {
+    font-family: "Lexend", serif;
+    background-color: #faf9f6;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.highlight {
+    color: midnightblue;
+}
+
+.main {
+    flex: 1;
+}
+
+.card {
+    width: 45%;
+}
+
+.card img {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer {
+    text-align: right;
+    color: midnightblue;
+}
+
+@media (max-width: 680px) {
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        width: 100%;
+        display: inline;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+}
